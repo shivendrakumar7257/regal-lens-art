@@ -40,13 +40,19 @@ export const Route = createRootRoute({
           "RS Photography crafts cinematic wedding films and timeless photographs. Capturing royal love stories across India and beyond.",
       },
       { name: "author", content: "RS Photography" },
-      { property: "og:title", content: "RS Photography — Capturing Timeless Love Stories" },
+      { property: "og:title", content: "RS Photography — Luxury Wedding Photography & Cinematography" },
       {
         property: "og:description",
         content: "Luxury wedding photography & cinematography. +91 84688 90581",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "RS Photography — Luxury Wedding Photography & Cinematography" },
+      { name: "description", content: "Ethereal Moments Studio crafts luxury wedding photography portfolios with a focus on visual storytelling." },
+      { property: "og:description", content: "Ethereal Moments Studio crafts luxury wedding photography portfolios with a focus on visual storytelling." },
+      { name: "twitter:description", content: "Ethereal Moments Studio crafts luxury wedding photography portfolios with a focus on visual storytelling." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c97300f6-30ad-48ac-9045-3423f2803204/id-preview-3f4a04a7--06d63e3d-dd0b-4ea2-a2d7-45979e134899.lovable.app-1776835194470.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c97300f6-30ad-48ac-9045-3423f2803204/id-preview-3f4a04a7--06d63e3d-dd0b-4ea2-a2d7-45979e134899.lovable.app-1776835194470.png" },
     ],
     links: [
       {
