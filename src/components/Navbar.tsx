@@ -65,12 +65,12 @@ export function Navbar() {
           ))}
         </nav>
 
-        <a
-          href="tel:+918468890581"
+        <Link
+          to="/book"
           className="hidden items-center gap-2 border border-gold px-5 py-2.5 font-display text-[10px] tracking-[0.3em] uppercase text-gold transition-all duration-500 hover:bg-gold hover:text-primary-foreground lg:inline-flex"
         >
           Book Session
-        </a>
+        </Link>
 
         <button
           aria-label="Toggle menu"
@@ -99,9 +99,15 @@ export function Navbar() {
               {l.label}
             </Link>
           ))}
+          <Link
+            to="/book"
+            className="mt-6 border border-gold bg-gold px-6 py-4 text-center font-display text-xs tracking-[0.3em] uppercase text-primary-foreground"
+          >
+            Book Session
+          </Link>
           <a
             href="tel:+918468890581"
-            className="mt-6 border border-gold px-6 py-4 text-center font-display text-xs tracking-[0.3em] uppercase text-gold"
+            className="mt-3 border border-gold/40 px-6 py-4 text-center font-display text-xs tracking-[0.3em] uppercase text-gold"
           >
             +91 84688 90581
           </a>
